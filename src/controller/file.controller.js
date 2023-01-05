@@ -3,7 +3,7 @@ const { format } = require("util");
 const { Storage } = require("@google-cloud/storage");
 
 const storage = new Storage({ keyFilename: "google-cloud-key.json" });
-const bucket = storage.bucket("bezkoder-e-commerce");
+const bucket = storage.bucket("models-zappar");
 
 const upload = async (req, res) => {
   try {
